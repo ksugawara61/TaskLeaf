@@ -52,10 +52,11 @@ $ bin/rails assets:precompile
 
 ### Unicorn関連
 
-* プロセスを起動
+* プロセスを起動<br>
+  ``-E`` オプションで実行環境を設定可能
 
 ```
-$ bundle exec unicorn -c config/unicorn.rb -D
+$ bundle exec unicorn -c config/unicorn.rb -D -E development
 ```
 
 * プロセスの停止
