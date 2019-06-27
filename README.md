@@ -78,4 +78,5 @@ $ kill -USR2 `cat ./tmp/pids/unicorn.pid`
 
 ## 参考文献
 
-1. https://qiita.com/syou007/items/555062cc96dd0b08a610
+1. 大塚隆弘、 依光奏江、 銭神裕宜、 櫻井達生、 松本拓也、 大場寧子、 小田井優、 小芝美由紀, 現場で使えるRuby on Rails 5 速習実践ガイド: 5.2対応, 2019.
+2. Unicorn設定のまとめ - Qiita, https://qiita.com/syou007/items/555062cc96dd0b08a610, Online; accessed 27-June-2019.
