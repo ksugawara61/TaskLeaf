@@ -1,24 +1,32 @@
-# README
+# TaskLeaf
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Railsで構築したタスク管理用のWebサイトです。
 
-Things you may want to cover:
+## 環境
 
-* Ruby version
+| 項目 | バージョン |
+| :--- | :--- |
+| Ruby | 2.5.1 |
+| Ruby on Rails | 5.2.3 |
 
-* System dependencies
+## セットアップ
 
-* Configuration
+* ``bundle install``
 
-* Database creation
+```
+$ bundle install --path vendor/bundle
+```
 
-* Database initialization
+## 実行コマンド
 
-* How to run the test suite
+* 開発環境の実行
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ bin/rails s
+```
 
-* Deployment instructions
+* テストの実行
 
-* ...
+```
+$ bundle exec rspec spec 
+```
