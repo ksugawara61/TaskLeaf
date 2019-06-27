@@ -30,3 +30,9 @@ $ bin/rails s
 ```
 $ bundle exec rspec spec 
 ```
+
+* アセットのプリコンパイル
+
+```
+$ bin/rails assets:precompile
+```
