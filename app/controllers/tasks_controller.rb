@@ -3,7 +3,7 @@ class TasksController < ApplicationController
 
   def index
     @q = current_user.tasks.ransack(params[:q])
-    @tasks = @q.result(distinct: true).recent #current_user.tasks.order(created_at: :desc)
+    @tasks = @q.result(distinct: true).page(params[:page]) #.recent #current_user.tasks.order(created_at: :desc)
 
     respond_to do |format|
       format.html
