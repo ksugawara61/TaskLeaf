@@ -18,16 +18,16 @@ Ruby on Railsで構築したタスク管理用のWebサイトです。
 $ bundle install --path vendor/bundle
 ```
 
-* webpackのインストール
-
-```
-$ bin/rails webpacker:install
-```
-
 * JavaScriptパッケージのインストール
 
 ```
 $ bin/yarn install
+```
+
+* Databaseの設定
+
+```
+$ RAILS_ENV=development bin/rake db:create db:migrate db:seed
 ```
 
 ## 実行コマンド
